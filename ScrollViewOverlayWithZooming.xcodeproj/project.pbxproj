@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521548EE13BB0F2200B57CAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521548ED13BB0F2200B57CAB /* UIKit.framework */; };
+		521548F013BB0F2200B57CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521548EF13BB0F2200B57CAB /* Foundation.framework */; };
+		521548F213BB0F2200B57CAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521548F113BB0F2200B57CAB /* CoreGraphics.framework */; };
+		521548F813BB0F2200B57CAB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 521548F613BB0F2200B57CAB /* InfoPlist.strings */; };
+		521548FB13BB0F2200B57CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521548FA13BB0F2200B57CAB /* main.m */; };
+		521548FE13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521548FD13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m */; };
+		5215490113BB0F2300B57CAB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521548FF13BB0F2300B57CAB /* MainWindow.xib */; };
+		5215490413BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215490313BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m */; };
+		5215490713BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5215490513BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		521548E913BB0F2200B57CAB /* ScrollViewOverlayWithZooming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewOverlayWithZooming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521548ED13BB0F2200B57CAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		521548EF13BB0F2200B57CAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		521548F113BB0F2200B57CAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		521548F513BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Info.plist */ = {isa = PBXFileReference; path = "ScrollViewOverlayWithZooming-Info.plist"; sourceTree = "<group>"; };
+		521548F713BB0F2200B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		521548F913BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollViewOverlayWithZooming-Prefix.pch"; sourceTree = "<group>"; };
+		521548FA13BB0F2200B57CAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521548FC13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.h */ = {isa = PBXFileReference; path = ScrollViewOverlayWithZoomingAppDelegate.h; sourceTree = "<group>"; };
+		521548FD13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewOverlayWithZoomingAppDelegate.m; sourceTree = "<group>"; };
+		5215490013BB0F2300B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5215490213BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.h */ = {isa = PBXFileReference; path = ScrollViewOverlayWithZoomingViewController.h; sourceTree = "<group>"; };
+		5215490313BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewOverlayWithZoomingViewController.m; sourceTree = "<group>"; };
+		5215490613BB0F2300B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrollViewOverlayWithZoomingViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521548E613BB0F2200B57CAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521548EE13BB0F2200B57CAB /* UIKit.framework in Frameworks */,
+				521548F013BB0F2200B57CAB /* Foundation.framework in Frameworks */,
+				521548F213BB0F2200B57CAB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521548DE13BB0F2200B57CAB = {
+			isa = PBXGroup;
+			children = (
+				521548F313BB0F2200B57CAB /* ScrollViewOverlayWithZooming */,
+				521548EC13BB0F2200B57CAB /* Frameworks */,
+				521548EA13BB0F2200B57CAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521548EA13BB0F2200B57CAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521548E913BB0F2200B57CAB /* ScrollViewOverlayWithZooming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521548EC13BB0F2200B57CAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521548ED13BB0F2200B57CAB /* UIKit.framework */,
+				521548EF13BB0F2200B57CAB /* Foundation.framework */,
+				521548F113BB0F2200B57CAB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521548F313BB0F2200B57CAB /* ScrollViewOverlayWithZooming */ = {
+			isa = PBXGroup;
+			children = (
+				521548FC13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.h */,
+				521548FD13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m */,
+				521548FF13BB0F2300B57CAB /* MainWindow.xib */,
+				5215490213BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.h */,
+				5215490313BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m */,
+				5215490513BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib */,
+				521548F413BB0F2200B57CAB /* Supporting Files */,
+			);
+			path = ScrollViewOverlayWithZooming;
+			sourceTree = "<group>";
+		};
+		521548F413BB0F2200B57CAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521548F513BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Info.plist */,
+				521548F613BB0F2200B57CAB /* InfoPlist.strings */,
+				521548F913BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Prefix.pch */,
+				521548FA13BB0F2200B57CAB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521548E813BB0F2200B57CAB /* ScrollViewOverlayWithZooming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5215490A13BB0F2300B57CAB /* Build configuration list for PBXNativeTarget "ScrollViewOverlayWithZooming" */;
+			buildPhases = (
+				521548E513BB0F2200B57CAB /* Sources */,
+				521548E613BB0F2200B57CAB /* Frameworks */,
+				521548E713BB0F2200B57CAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewOverlayWithZooming;
+			productName = ScrollViewOverlayWithZooming;
+			productReference = 521548E913BB0F2200B57CAB /* ScrollViewOverlayWithZooming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521548E013BB0F2200B57CAB /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 521548E313BB0F2200B57CAB /* Build configuration list for PBXProject "ScrollViewOverlayWithZooming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 521548DE13BB0F2200B57CAB;
+			productRefGroup = 521548EA13BB0F2200B57CAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521548E813BB0F2200B57CAB /* ScrollViewOverlayWithZooming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521548E713BB0F2200B57CAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521548F813BB0F2200B57CAB /* InfoPlist.strings in Resources */,
+				5215490113BB0F2300B57CAB /* MainWindow.xib in Resources */,
+				5215490713BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521548E513BB0F2200B57CAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521548FB13BB0F2200B57CAB /* main.m in Sources */,
+				521548FE13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m in Sources */,
+				5215490413BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		521548F613BB0F2200B57CAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521548F713BB0F2200B57CAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		521548FF13BB0F2300B57CAB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5215490013BB0F2300B57CAB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5215490513BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5215490613BB0F2300B57CAB /* en */,
+			);
+			name = ScrollViewOverlayWithZoomingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5215490813BB0F2300B57CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5215490913BB0F2300B57CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		5215490B13BB0F2300B57CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewOverlayWithZooming/ScrollViewOverlayWithZooming-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewOverlayWithZooming/ScrollViewOverlayWithZooming-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5215490C13BB0F2300B57CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrollViewOverlayWithZooming/ScrollViewOverlayWithZooming-Prefix.pch";
+				INFOPLIST_FILE = "ScrollViewOverlayWithZooming/ScrollViewOverlayWithZooming-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521548E313BB0F2200B57CAB /* Build configuration list for PBXProject "ScrollViewOverlayWithZooming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215490813BB0F2300B57CAB /* Debug */,
+				5215490913BB0F2300B57CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5215490A13BB0F2300B57CAB /* Build configuration list for PBXNativeTarget "ScrollViewOverlayWithZooming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5215490B13BB0F2300B57CAB /* Debug */,
+				5215490C13BB0F2300B57CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521548E013BB0F2200B57CAB /* Project object */;
+}
