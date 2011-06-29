@@ -7,6 +7,7 @@
 //
 
 #import "ScrollViewOverlayWithZoomingViewController.h"
+#import "OverlayScrollView.h"
 
 @implementation ScrollViewOverlayWithZoomingViewController
 
@@ -25,13 +26,17 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+	
+	OverlayScrollView* scrollView = [[OverlayScrollView alloc] initWithFrame:self.view.bounds];
+	[self.view addSubview:scrollView];
+	[scrollView release];
 }
-*/
+
 
 - (void)viewDidUnload
 {

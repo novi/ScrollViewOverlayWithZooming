@@ -16,6 +16,9 @@
 		5215490113BB0F2300B57CAB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521548FF13BB0F2300B57CAB /* MainWindow.xib */; };
 		5215490413BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5215490313BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m */; };
 		5215490713BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5215490513BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.xib */; };
+		5269222013BB171600C81987 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269221A13BB171600C81987 /* OverlayView.m */; };
+		5269222113BB171600C81987 /* ContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269221C13BB171600C81987 /* ContainerView.m */; };
+		5269222213BB171600C81987 /* OverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5269221D13BB171600C81987 /* OverlayScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +26,22 @@
 		521548ED13BB0F2200B57CAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		521548EF13BB0F2200B57CAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		521548F113BB0F2200B57CAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		521548F513BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Info.plist */ = {isa = PBXFileReference; path = "ScrollViewOverlayWithZooming-Info.plist"; sourceTree = "<group>"; };
+		521548F513BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewOverlayWithZooming-Info.plist"; sourceTree = "<group>"; };
 		521548F713BB0F2200B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		521548F913BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Prefix.pch */ = {isa = PBXFileReference; path = "ScrollViewOverlayWithZooming-Prefix.pch"; sourceTree = "<group>"; };
+		521548F913BB0F2200B57CAB /* ScrollViewOverlayWithZooming-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrollViewOverlayWithZooming-Prefix.pch"; sourceTree = "<group>"; };
 		521548FA13BB0F2200B57CAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		521548FC13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.h */ = {isa = PBXFileReference; path = ScrollViewOverlayWithZoomingAppDelegate.h; sourceTree = "<group>"; };
+		521548FC13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewOverlayWithZoomingAppDelegate.h; sourceTree = "<group>"; };
 		521548FD13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewOverlayWithZoomingAppDelegate.m; sourceTree = "<group>"; };
 		5215490013BB0F2300B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5215490213BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.h */ = {isa = PBXFileReference; path = ScrollViewOverlayWithZoomingViewController.h; sourceTree = "<group>"; };
+		5215490213BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewOverlayWithZoomingViewController.h; sourceTree = "<group>"; };
 		5215490313BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewOverlayWithZoomingViewController.m; sourceTree = "<group>"; };
 		5215490613BB0F2300B57CAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrollViewOverlayWithZoomingViewController.xib; sourceTree = "<group>"; };
+		5269221A13BB171600C81987 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		5269221B13BB171600C81987 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		5269221C13BB171600C81987 /* ContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerView.m; sourceTree = "<group>"; };
+		5269221D13BB171600C81987 /* OverlayScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayScrollView.m; sourceTree = "<group>"; };
+		5269221E13BB171600C81987 /* OverlayScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayScrollView.h; sourceTree = "<group>"; };
+		5269221F13BB171600C81987 /* ContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +88,12 @@
 		521548F313BB0F2200B57CAB /* ScrollViewOverlayWithZooming */ = {
 			isa = PBXGroup;
 			children = (
+				5269221B13BB171600C81987 /* OverlayView.h */,
+				5269221A13BB171600C81987 /* OverlayView.m */,
+				5269221E13BB171600C81987 /* OverlayScrollView.h */,
+				5269221D13BB171600C81987 /* OverlayScrollView.m */,
+				5269221F13BB171600C81987 /* ContainerView.h */,
+				5269221C13BB171600C81987 /* ContainerView.m */,
 				521548FC13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.h */,
 				521548FD13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m */,
 				521548FF13BB0F2300B57CAB /* MainWindow.xib */,
@@ -164,6 +179,9 @@
 				521548FB13BB0F2200B57CAB /* main.m in Sources */,
 				521548FE13BB0F2200B57CAB /* ScrollViewOverlayWithZoomingAppDelegate.m in Sources */,
 				5215490413BB0F2300B57CAB /* ScrollViewOverlayWithZoomingViewController.m in Sources */,
+				5269222013BB171600C81987 /* OverlayView.m in Sources */,
+				5269222113BB171600C81987 /* ContainerView.m in Sources */,
+				5269222213BB171600C81987 /* OverlayScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +296,7 @@
 				5215490C13BB0F2300B57CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
